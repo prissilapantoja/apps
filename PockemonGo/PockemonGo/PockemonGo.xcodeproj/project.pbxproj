@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB6011CD225412880002A7AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6011CC225412880002A7AC /* AppDelegate.swift */; };
+		FB6011CF225412880002A7AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6011CE225412880002A7AC /* ViewController.swift */; };
+		FB6011D2225412880002A7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6011D0225412880002A7AC /* Main.storyboard */; };
+		FB6011D42254128B0002A7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6011D32254128B0002A7AC /* Assets.xcassets */; };
+		FB6011D72254128B0002A7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6011D52254128B0002A7AC /* LaunchScreen.storyboard */; };
+		FB6011E22254128B0002A7AC /* PockemonGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6011E12254128B0002A7AC /* PockemonGoTests.swift */; };
+		FB6011ED2254128B0002A7AC /* PockemonGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6011EC2254128B0002A7AC /* PockemonGoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB6011DE2254128B0002A7AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB6011C1225412880002A7AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB6011C8225412880002A7AC;
+			remoteInfo = PockemonGo;
+		};
+		FB6011E92254128B0002A7AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB6011C1225412880002A7AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB6011C8225412880002A7AC;
+			remoteInfo = PockemonGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB6011C9225412880002A7AC /* PockemonGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PockemonGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6011CC225412880002A7AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB6011CE225412880002A7AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB6011D1225412880002A7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB6011D32254128B0002A7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB6011D62254128B0002A7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB6011D82254128B0002A7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6011DD2254128B0002A7AC /* PockemonGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PockemonGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6011E12254128B0002A7AC /* PockemonGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockemonGoTests.swift; sourceTree = "<group>"; };
+		FB6011E32254128B0002A7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6011E82254128B0002A7AC /* PockemonGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PockemonGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6011EC2254128B0002A7AC /* PockemonGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockemonGoUITests.swift; sourceTree = "<group>"; };
+		FB6011EE2254128B0002A7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB6011C6225412880002A7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6011DA2254128B0002A7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6011E52254128B0002A7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB6011C0225412880002A7AC = {
+			isa = PBXGroup;
+			children = (
+				FB6011CB225412880002A7AC /* PockemonGo */,
+				FB6011E02254128B0002A7AC /* PockemonGoTests */,
+				FB6011EB2254128B0002A7AC /* PockemonGoUITests */,
+				FB6011CA225412880002A7AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB6011CA225412880002A7AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6011C9225412880002A7AC /* PockemonGo.app */,
+				FB6011DD2254128B0002A7AC /* PockemonGoTests.xctest */,
+				FB6011E82254128B0002A7AC /* PockemonGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6011CB225412880002A7AC /* PockemonGo */ = {
+			isa = PBXGroup;
+			children = (
+				FB6011CC225412880002A7AC /* AppDelegate.swift */,
+				FB6011CE225412880002A7AC /* ViewController.swift */,
+				FB6011D0225412880002A7AC /* Main.storyboard */,
+				FB6011D32254128B0002A7AC /* Assets.xcassets */,
+				FB6011D52254128B0002A7AC /* LaunchScreen.storyboard */,
+				FB6011D82254128B0002A7AC /* Info.plist */,
+			);
+			path = PockemonGo;
+			sourceTree = "<group>";
+		};
+		FB6011E02254128B0002A7AC /* PockemonGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB6011E12254128B0002A7AC /* PockemonGoTests.swift */,
+				FB6011E32254128B0002A7AC /* Info.plist */,
+			);
+			path = PockemonGoTests;
+			sourceTree = "<group>";
+		};
+		FB6011EB2254128B0002A7AC /* PockemonGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB6011EC2254128B0002A7AC /* PockemonGoUITests.swift */,
+				FB6011EE2254128B0002A7AC /* Info.plist */,
+			);
+			path = PockemonGoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB6011C8225412880002A7AC /* PockemonGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6011F12254128B0002A7AC /* Build configuration list for PBXNativeTarget "PockemonGo" */;
+			buildPhases = (
+				FB6011C5225412880002A7AC /* Sources */,
+				FB6011C6225412880002A7AC /* Frameworks */,
+				FB6011C7225412880002A7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PockemonGo;
+			productName = PockemonGo;
+			productReference = FB6011C9225412880002A7AC /* PockemonGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB6011DC2254128B0002A7AC /* PockemonGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6011F42254128B0002A7AC /* Build configuration list for PBXNativeTarget "PockemonGoTests" */;
+			buildPhases = (
+				FB6011D92254128B0002A7AC /* Sources */,
+				FB6011DA2254128B0002A7AC /* Frameworks */,
+				FB6011DB2254128B0002A7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB6011DF2254128B0002A7AC /* PBXTargetDependency */,
+			);
+			name = PockemonGoTests;
+			productName = PockemonGoTests;
+			productReference = FB6011DD2254128B0002A7AC /* PockemonGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB6011E72254128B0002A7AC /* PockemonGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6011F72254128B0002A7AC /* Build configuration list for PBXNativeTarget "PockemonGoUITests" */;
+			buildPhases = (
+				FB6011E42254128B0002A7AC /* Sources */,
+				FB6011E52254128B0002A7AC /* Frameworks */,
+				FB6011E62254128B0002A7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB6011EA2254128B0002A7AC /* PBXTargetDependency */,
+			);
+			name = PockemonGoUITests;
+			productName = PockemonGoUITests;
+			productReference = FB6011E82254128B0002A7AC /* PockemonGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB6011C1225412880002A7AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = UTNG;
+				TargetAttributes = {
+					FB6011C8225412880002A7AC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FB6011DC2254128B0002A7AC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FB6011C8225412880002A7AC;
+					};
+					FB6011E72254128B0002A7AC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FB6011C8225412880002A7AC;
+					};
+				};
+			};
+			buildConfigurationList = FB6011C4225412880002A7AC /* Build configuration list for PBXProject "PockemonGo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB6011C0225412880002A7AC;
+			productRefGroup = FB6011CA225412880002A7AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6011C8225412880002A7AC /* PockemonGo */,
+				FB6011DC2254128B0002A7AC /* PockemonGoTests */,
+				FB6011E72254128B0002A7AC /* PockemonGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB6011C7225412880002A7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6011D72254128B0002A7AC /* LaunchScreen.storyboard in Resources */,
+				FB6011D42254128B0002A7AC /* Assets.xcassets in Resources */,
+				FB6011D2225412880002A7AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6011DB2254128B0002A7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6011E62254128B0002A7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB6011C5225412880002A7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6011CF225412880002A7AC /* ViewController.swift in Sources */,
+				FB6011CD225412880002A7AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6011D92254128B0002A7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6011E22254128B0002A7AC /* PockemonGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6011E42254128B0002A7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6011ED2254128B0002A7AC /* PockemonGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB6011DF2254128B0002A7AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB6011C8225412880002A7AC /* PockemonGo */;
+			targetProxy = FB6011DE2254128B0002A7AC /* PBXContainerItemProxy */;
+		};
+		FB6011EA2254128B0002A7AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB6011C8225412880002A7AC /* PockemonGo */;
+			targetProxy = FB6011E92254128B0002A7AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB6011D0225412880002A7AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6011D1225412880002A7AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB6011D52254128B0002A7AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6011D62254128B0002A7AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB6011EF2254128B0002A7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB6011F02254128B0002A7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB6011F22254128B0002A7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PockemonGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.PockemonGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB6011F32254128B0002A7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PockemonGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.PockemonGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB6011F52254128B0002A7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PockemonGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.PockemonGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PockemonGo.app/PockemonGo";
+			};
+			name = Debug;
+		};
+		FB6011F62254128B0002A7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PockemonGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.PockemonGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PockemonGo.app/PockemonGo";
+			};
+			name = Release;
+		};
+		FB6011F82254128B0002A7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PockemonGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.PockemonGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PockemonGo;
+			};
+			name = Debug;
+		};
+		FB6011F92254128B0002A7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PockemonGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTNG.PockemonGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PockemonGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB6011C4225412880002A7AC /* Build configuration list for PBXProject "PockemonGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6011EF2254128B0002A7AC /* Debug */,
+				FB6011F02254128B0002A7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6011F12254128B0002A7AC /* Build configuration list for PBXNativeTarget "PockemonGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6011F22254128B0002A7AC /* Debug */,
+				FB6011F32254128B0002A7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6011F42254128B0002A7AC /* Build configuration list for PBXNativeTarget "PockemonGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6011F52254128B0002A7AC /* Debug */,
+				FB6011F62254128B0002A7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6011F72254128B0002A7AC /* Build configuration list for PBXNativeTarget "PockemonGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6011F82254128B0002A7AC /* Debug */,
+				FB6011F92254128B0002A7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB6011C1225412880002A7AC /* Project object */;
+}
